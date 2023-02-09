@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=VT323&display=swap');
+:root{
+  --soft-orange:hsl(35, 77%, 62%);
+  --soft-red:hsl(5, 85%, 63%);
+}
+body{
+  margin: 3rem 7.5rem 3rem 7.5rem;
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(36, 100%, 99%);
+}
+/*navbar styles*/
+.nav{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.links ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  width: 450px;
+  justify-content: space-evenly;
+}
+.links ul a{
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+.links ul a:hover{
+  color: var(--soft-red);
+}
+/*Home styles*/
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Main styles*/
+.main{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text h1{
+  font-size: 60px;
+  font-weight: bold;
+  width: 45%;
+}
+.details{
+  width: 45%;
+}
+.details p{
+  padding-top: 25px;
+  font-size: 20px;
+  color:hsl(236, 13%, 42%);
+}
+.details button{
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--soft-red);
+  padding: 15px 30px 15px 30px;
+  font-size: 15px;
+  color: white;
+  margin-top: 25px;
+}
+.details button:hover{
+  background-color: black;
+}
+.main img{
+  width: 100%;
+  height: 300px;
+}
+
+/*Side styles*/
+.side{
+  background-color: hsl(240, 100%, 5%);
+  padding: 20px 15px 15px 20px;
+  width: 20%;
+  height: fit-content;
+}
+.side h2{
+  font-size: 35px;
+  margin-top: 0;
+  color: var(--soft-orange);
+}
+.side h4{
+  color: white;
+  cursor: pointer;
+}
+.side h4:hover{
+  color: var(--soft-orange);
+}
+.side p{
+  font-size: 15px;
+  color: hsl(233, 8%, 79%);
+}
+.side .article{
+  border-bottom: 1px solid gray;
+}
+
+/*Bottom styles*/
+.bot{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.art{
+  max-width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.art img{
+  height: 150px;
+  width: 100px;
+  margin-right: 15px;
+}
+.deets{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.deets h2{
+  color: hsl(233, 8%, 79%);
+  margin: 0;
+  font-weight: bold;
+}
+.deets h3{
+  margin: 0;
+  cursor: pointer;
+}
+.deets h3:hover{
+  color: var(--soft-red);
+}
+
